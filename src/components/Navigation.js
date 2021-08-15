@@ -1,16 +1,16 @@
-import './style/navigation.css';
+// import './style/navigation.css';
 
-const Navigation = () => {
-    return (
-        <div id="navigation">
-            <ul>
-                <li>Home</li>
-                <li>Showtimes</li>
-                <li>Information</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-    )
-}
+// const Navigation = () => {
+//     return (
+//         <div id="navigation">
+//             <ul>
+//                 <li>Home</li>
+//                 <li>Showtimes</li>
+//                 <li>Information</li>
+//                 <li>Contact</li>
+//             </ul>
+//         </div>
+//     )
+// }
 
-export default Navigation;
+// export default Navigation;
