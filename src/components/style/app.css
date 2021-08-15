@@ -1,5 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
 #navigation {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    background-color: #2B7772;
+    padding: 14px;
+    color: white;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: arial;
+    border-bottom: 2px solid #E4561E;
+}
+
+#diamond-one, #diamond-three {
+    font-size: 40px;
+    color: #E4551E;
+}
+
+#diamond-two {
+    color: #E8CE9E;
+    font-size: 40px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#navigation a:visited {
+    color: white;
 }

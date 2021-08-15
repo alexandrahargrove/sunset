@@ -12,8 +12,11 @@ function App() {
 
     <div id ="navigation">
       <Link to="/">Home</Link>
+      <span id="diamond-one">&#9830;</span>
       <Link to="/showtimes">Showtimes</Link>
+      <span id="diamond-two">&#9830;</span>
       <Link to="/information">Information</Link>
+      <span id="diamond-three">&#9830;</span>
       <Link to="/contact">Contact</Link>
     </div>
 
