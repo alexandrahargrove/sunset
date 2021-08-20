@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Showtimes from './components/Showtimes';
 import Information from './components/Information';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <Link to="/contact">Contact</Link>
     </div>
 
-      <Route path="/">
+      <Route exact path="/">
         <Home />
       </Route>
       <Route path="/contact">
@@ -33,6 +34,7 @@ function App() {
       <Route path="/information">
         <Information />
       </Route>
+      <Footer />
 
 
     </Router>

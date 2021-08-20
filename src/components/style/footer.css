@@ -1,0 +1,13 @@
+footer {
+    color: white;
+}
+
+#business-info-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+#copyright {
+    text-align: center;
+}

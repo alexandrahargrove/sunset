@@ -16,24 +16,23 @@ body {
     color: white;
     align-items: center;
     text-transform: uppercase;
-    font-family: arial;
-    border-bottom: 2px solid #EEA61B;
+    font-family: 'Voltaire', sans-serif;
 }
 
 #diamond-one, #diamond-three {
-    font-size: 40px;
+    font-size: 30px;
     color: #E4551E;
 }
 
 #diamond-two {
     color: #E8CE9E;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #navigation a {
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 #navigation a:visited {

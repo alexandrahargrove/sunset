@@ -1,6 +1,12 @@
 const Contact = () => {
     return (
-        <h1>Contact here.</h1>
+        <div id="contact">
+        <h1>Contact Us!</h1>
+        <div id="contact-links">
+        <a href="/">Instagram</a>
+        <a href="/">Facebook</a>
+        </div>
+        </div>
     )
 }
 
