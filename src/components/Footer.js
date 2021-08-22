@@ -1,4 +1,7 @@
+import React from 'react';
+import { Link } from "react-router-dom";
 import './style/footer.css';
+
 
 const Footer = () => {
         return (
@@ -52,6 +55,9 @@ const Footer = () => {
                 Copyright 2021 &copy; Sunset Drive-In Movie Theater. All Rights Reserved.
                 <br />
                 Website made by Alexandra Hargrove.
+                <br />
+                <br />
+                <Link to="/admin">Admin</Link>
             </div>
         </footer>
     )

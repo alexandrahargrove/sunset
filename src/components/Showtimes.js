@@ -1,6 +1,9 @@
 const Showtimes = () => {
     return (
-        <h1>Showtimes here.</h1>
+        <div id="features">
+            <h1>Now Showing</h1>
+            
+        </div>
     )
 }
 

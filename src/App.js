@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Showtimes from './components/Showtimes';
 import Information from './components/Information';
 import Footer from './components/Footer';
+import Admin from './components/Admin';
 
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
       </Route>
       <Route path="/information">
         <Information />
+      </Route>
+      <Route exact path="/admin">
+        <Admin />
       </Route>
       <Footer />
 
