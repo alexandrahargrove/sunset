@@ -11,17 +11,20 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: #2B7772;
+    align-items: center;
+    background-color: #881E1D;
+    border-bottom: 2px solid white;
     padding: 14px;
     color: white;
     align-items: center;
     text-transform: uppercase;
     font-family: 'Voltaire', sans-serif;
+    height: 100px;
 }
 
 #diamond-one, #diamond-three {
     font-size: 30px;
-    color: #E4551E;
+    color: #AC3734;
 }
 
 #diamond-two {
@@ -32,9 +35,23 @@ body {
 #navigation a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #navigation a:visited {
     color: white;
+}
+
+#word {
+    width: 300px;
+}
+
+#logo {
+    height: 300px;
+    margin-top: 80px;
+}
+
+#bottom-nav-container {
+    background-color: tan;
+    height: 80px;
 }

@@ -15,12 +15,16 @@ function App() {
     <Router>
     <div id ="navigation">
       <Link to="/">Home</Link>
-      <span id="diamond-one">&#9830;</span>
+      {/* <span id="diamond-one">&#9830;</span> */}
       <Link to="/showtimes">Showtimes</Link>
-      <span id="diamond-two">&#9830;</span>
+      {/* <span id="diamond-two">&#9830;</span> */}
+      <img id="logo" src="/sunset.png"></img>
+      {/* <span id="diamond-two">&#9830;</span> */}
       <Link to="/information">Information</Link>
-      <span id="diamond-three">&#9830;</span>
+      {/* <span id="diamond-three">&#9830;</span> */}
       <Link to="/contact">Contact</Link>
+    </div>
+    <div id="bottom-nav-container">
     </div>
 
       <Route exact path="/">
