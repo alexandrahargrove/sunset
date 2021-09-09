@@ -55,3 +55,13 @@ body {
     background-color: tan;
     height: 80px;
 }
+
+
+
+
+/* mobile styling*/
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
