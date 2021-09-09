@@ -1,8 +1,17 @@
+import React from 'react';
+import './style/showtimes.css';
+
 const Showtimes = () => {
     return (
         <div id="features">
-            <h1>Now Showing</h1>
-            Trying to see if git is working..
+            <div id="feature-one">
+                <h2>Feature One:</h2>
+                <p>Feature one goes here.</p>
+            </div>
+            <div id="feature-two">
+                <h2>Feature Two:</h2>
+                <p>Feature two goes here.</p>
+            </div>
             
         </div>
     )

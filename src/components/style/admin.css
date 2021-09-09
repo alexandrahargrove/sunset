@@ -1,0 +1,9 @@
+#admin-login input {
+    width: 400px;
+    height: 30px;
+
+}
+
+#admin-login label {
+    color: white;
+}

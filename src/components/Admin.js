@@ -1,3 +1,4 @@
+import './style/admin.css';
 
 const Admin = () => {
     return (

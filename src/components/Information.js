@@ -1,5 +1,7 @@
 import React from 'react';
 import Faq from 'react-faq-component';
+import { Redirect } from 'react-router-dom';
+import './style/information.css';
 
 const faqData = {
     title: "Frequently Asked Questions",
@@ -39,10 +41,19 @@ const faqData = {
     ]
 };
 
+const styles = {
+    bgColor: '#E0D9C2',
+    arrowColor: 'red'
+    
+};
+
 const Information = () => {
     return (
-        <div id="FAQ-Container">
-        <Faq data={faqData} /> 
+        <div id="FAQ-container">
+        <Faq data={faqData} styles={styles} /> 
+        <div id="map-container">
+            <iframe title="Sunset Drive-In Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.9145098463396!2d-120.67521478518489!3d35.25838256065407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ecf0d950792e09%3A0xcfe2ecee29186272!2sSunset%20Drive-In!5e0!3m2!1sen!2sus!4v1629482107327!5m2!1sen!2sus" width="400" height="300" allowfullscreen="" loading="lazy"></iframe>
+        </div>
         </div>
     )
 }
